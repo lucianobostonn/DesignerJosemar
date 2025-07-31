@@ -553,6 +553,7 @@ section#Contato{
     .gradiente-escuro {
         bottom: -400px;
         height: 700px;
+        width: 1800px;
       }
 }
 
@@ -785,6 +786,10 @@ section#Contato{
         left: 450px;
         bottom: -220px;
     }
+
+    .gradiente-escuro {
+        width: 1700px;
+      }
 }
 
 
@@ -1011,6 +1016,10 @@ section#Contato{
         left: 420px;
         bottom: -250px;
     }
+
+    .gradiente-escuro {
+        width: 1300px;
+      }
 }
 
 
@@ -1260,6 +1269,7 @@ section#Contato{
     .gradiente-escuro {
         bottom: -400px;
         height: 500px;
+        width: 1000px;
       }
 }
 
@@ -1490,6 +1500,7 @@ section#Contato{
     .gradiente-escuro {
         bottom: -400px;
         height: 400px;
+        width: 700px;
       }
 }
 
@@ -1722,6 +1733,7 @@ section#Contato{
     .gradiente-escuro {
         bottom: -350px;
         height: 200px;
+        width: 500px;
       }
 
 }
@@ -1949,6 +1961,7 @@ section#Contato{
     .gradiente-escuro {
         bottom: -350px;
         height: 150px;
+        width: 350px;
       }
 }
 
@@ -2172,6 +2185,10 @@ section#Contato{
         left: 70px;
         bottom: -320px;
     }
+
+    .gradiente-escuro {
+        width: 315px;
+      }
 }
 
 
@@ -2402,6 +2419,7 @@ section#Contato{
     .gradiente-escuro {
         bottom: -350px;
         height: 100px;
+        width: 250px;
       }
 
 }
