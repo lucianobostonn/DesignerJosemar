@@ -1,0 +1,2407 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0px;
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --cor1: #09c03d;
+    --cor2: #047724;
+    --cor3: #01c92a;
+}
+
+
+body{
+    background-color: black;
+    padding: 180px;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+section#home{
+    
+}
+
+
+#HomeContainer{
+    display: flex;
+}
+
+#HomeTitleContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+#HomeContainer #logo{
+    width: 150px;
+}
+
+#HomeTitle{
+    margin-top: 100px;
+    color: var(--cor1);
+    font-size: 5.4em;
+    width: 650px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.1em;
+}
+
+#HomeTitle span:nth-child(1){
+    font-weight: 200;
+}
+
+#HomeTitle span:nth-child(2){
+    color: white;
+    font-weight: 400;
+}
+
+#HomeTeaser{
+    font-size: 3em;
+    font-weight: 300;
+}
+
+section#home #HomeImg{
+    display: flex;
+}
+
+section#home #HomeImg img{
+    position: absolute;
+    
+}
+
+#FundoInsta{
+    top: -15px;
+    right: 100px;
+    z-index: 1;
+    width: 1100px;
+}
+
+#HomeRosto{
+    z-index: 1;
+    width: 850px;
+    right: 100px;
+    top: 60px;
+}
+
+#HomeAura{
+    top: -80px;
+    right: 20px;
+}
+
+#HomePhotoshopMenu{
+    top: 142px;
+    right: 180px;
+}
+
+
+section#home .HomePlantas1{
+    top: 100px;
+    margin-top: 250px;
+    position: absolute;
+    left: 0;
+}
+
+section#home .HomePlantas2{
+    margin-top: 150px;
+    top: 100px;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+
+
+section#AboutMe{
+    position: relative;
+    margin-top: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#AboutMeContainer{
+    
+}
+
+#AboutMeContainer p{
+    font-size: 3em;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+#AboutMeImgs{
+    display: flex;
+    gap: 40px;
+}
+
+#AboutMeImgs img{
+    width: 460px;
+}
+
+
+section#Trabalhos{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#TrabalhosAuraCanto{
+    position: absolute;
+    width: 1900px;
+    z-index: -1;
+}
+
+section#Trabalhos h1{
+    background: linear-gradient(90deg, var(--cor2), var(--cor1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 13.5em;
+    font-weight: 600;
+}
+
+section#Trabalhos p{
+    margin-top: -30px;
+    margin-bottom: 100px;
+    font-size: 4.5em;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+#TrabalhosContainer{
+    display: flex;
+    gap: 80px;
+}
+
+#TrabalhosContainer div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#TrabalhosContainer img{
+    width: 650px;
+}
+
+
+section#Serviços{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+#ServiçosPlantaTopo{
+    position: absolute;
+    margin-top: -20px;
+    left: -200px;
+}
+
+section#Serviços img{
+
+}
+
+
+section#Depoimentos{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#ServiçosPlantaChão{
+    position: absolute;
+    right: -180px;
+    margin-top: -2000px;
+}
+
+section#Depoimentos h1{
+    text-align: center;
+    font-size: 9.5em;
+    font-weight: 200;
+}
+
+section#Depoimentos h1 > span{
+    font-weight: 600;
+    color: var(--cor3);
+}
+
+section#Depoimentos h1 > span span{
+    background: linear-gradient(90deg, var(--cor3), var(--cor2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+section#Depoimentos p{
+    margin-bottom: 100px;
+    font-size: 3.5em;
+    font-weight: 100;
+    text-align: center;
+    opacity: .5;
+}
+
+
+
+section#Contato{
+    margin-top: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+#ContatoPlantas{
+    position: absolute;
+    margin-top: 120px;
+    left: -200px;
+}
+
+#ContatoAuraCanto{
+    position: absolute;
+    right: -180px;
+    bottom: 0;
+}
+
+#ContatoPhoto {
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+}
+  
+#ContatoPhoto img {
+    position: absolute;
+    height: auto;
+}
+  
+#ContatoRosto {
+    z-index: 2;
+    bottom: -300px;
+}
+  
+#ContatoQuadro {
+    z-index: 1;
+    bottom: -300px;
+    left: -200px;
+}
+  
+#ContatoBolhas {
+    bottom: 460px;
+    left: -200px;
+    z-index: -1;
+}
+
+#ContatoAura{
+    bottom: -300px;
+    left: -200px;
+    z-index: -1;
+}
+
+
+#ContatoLogo{
+    left: 550px;
+    bottom: -100px;
+    z-index: 3;
+}
+
+.gradiente-escuro {
+    position: absolute;
+    bottom: -300px;
+    height: 50%; /* Ajuste conforme necessário */
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
+    pointer-events: none;
+    z-index: 2;
+    width: 1900px;
+  }
+
+
+
+@media (max-width: 1800px){
+
+    body{
+        padding: 170px;
+    }
+
+    /* Home/////////////////////////////////// */
+
+    #HomeContainer #logo{
+        width: 145px;
+    }
+    
+    #HomeTitle{
+        margin-top: 95px;
+        font-size: 5.2em;
+        width: 600px;
+        line-height: 1em;
+    }
+
+    #HomeTeaser{
+        font-size: 2.9em;
+        font-weight: 300;
+    }
+
+    #FundoInsta{
+        top: -15px;
+        right: 60px;
+        width: 1080px;
+    }
+    
+    #HomeRosto{
+        width: 800px;
+        right: 10px;
+        top: 60px;
+    }
+    
+    #HomeAura{
+        width: 1400px;
+        top: -40px;
+        right: 20px;
+    }
+    
+    #HomePhotoshopMenu{
+        width: 410px;
+        top: 142px;
+        right: 80px;
+    }
+    
+    
+    section#home .HomePlantas1{
+        top: 50px;
+        margin-top: 245px;
+        width: 345px;
+        left: 0;
+    }
+    
+    section#home .HomePlantas2{
+        margin-top: 140px;
+        top: 100px;
+        width: 450px;
+        right: 0;
+        z-index: 2;
+    }
+
+    /* About Me/////////////////////////////////// */
+
+    section#AboutMe{
+        margin-top: 790px;
+    }
+    
+    
+    #AboutMeContainer p{
+        font-size: 2.9em;
+        font-weight: 300;
+        margin-bottom: 70px;
+    }
+    
+    
+    #AboutMeImgs{
+        gap: 38px;
+    }
+    
+    #AboutMeImgs img{
+        width: 455px;
+    }
+
+    /* Trabalhos/////////////////////////////////// */
+    
+    section#Trabalhos{
+        margin-top: 95px;
+    }
+    
+    #TrabalhosAuraCanto{
+        width: 1890px;
+    }
+    
+    section#Trabalhos h1{
+        font-size: 13em;
+        font-weight: 600;
+    }
+    
+    section#Trabalhos p{
+        margin-top: -30px;
+        margin-bottom: 100px;
+        font-size: 4em;
+    }
+    
+    
+    #TrabalhosContainer{
+        gap: 75px;
+    }
+    
+    #TrabalhosContainer div{
+        gap: 38px;
+    }
+    
+    #TrabalhosContainer img{
+        width: 600px;
+    }
+
+    /* Serviços/////////////////////////////////// */
+
+    section#Serviços{
+        margin-top: 20px;
+    }
+    
+    #ServiçosPlantaTopo{
+        width: 200px;
+        margin-top: -20px;
+        left: -200px;
+    }
+    
+    section#Serviços #ListaServiços{
+        width: 1500px;
+    }
+
+
+    /* Depoimentos/////////////////////////////////// */
+
+
+    section#Depoimentos{
+        margin-top: 300px;
+    }
+    
+    #ServiçosPlantaChão{
+        width: 280px;
+        right: -170px;
+        margin-top: -1800px;
+    }
+    
+    section#Depoimentos h1{
+        font-size: 9em;
+    }
+    
+    section#Depoimentos p{
+        margin-bottom: 100px;
+        font-size: 3.3em;
+        opacity: .5;
+    }
+
+    section#Depoimentos #DepoimentosIMG{
+        width: 1500px;
+    }
+
+
+    /* Contacto/////////////////////////////////// */
+
+
+    section#Contato{
+        margin-top: 300px;
+    }
+
+    #ContatoIMG{
+        width: 1500px;
+    }
+    
+    #ContatoPlantas{
+        width: 200px;
+        margin-top: 120px;
+        left: -200px;
+    }
+    
+    #ContatoAuraCanto{
+        width: 1430px;
+        right: -180px;
+        bottom: 0;
+    }
+    
+    #ContatoPhoto {
+        width: 100%;
+        height: 1400px;
+    }
+      
+    #ContatoRosto {
+        width: 1500px;
+        bottom: -350px;
+    }
+      
+    #ContatoQuadro {
+        width: 1200px;
+        bottom: -350px;
+        left: -200px;
+    }
+      
+    #ContatoBolhas {
+        width: 700px;
+        bottom: 300px;
+        left: -150px;
+    }
+    
+    #ContatoAura{
+        width: 1000px;
+        bottom: -300px;
+        left: 100px;
+    }
+    
+    
+    #ContatoLogo{
+        left: 500px;
+        bottom: -200px;
+    }
+
+    .gradiente-escuro {
+        bottom: -400px;
+        height: 700px;
+      }
+}
+
+
+
+
+
+
+@media (max-width: 1700px){
+    
+    body{
+        padding: 150px;
+    }
+
+    /* Home/////////////////////////////////// */
+
+    #HomeContainer #logo{
+        width: 130px;
+    }
+    
+    #HomeTitle{
+        margin-top: 80px;
+        font-size: 4em;
+        max-width: 500px;
+        line-height: 1em;
+    }
+
+    #HomeTeaser{
+        font-size: 2.2em;
+        font-weight: 300;
+    }
+
+    #FundoInsta{
+        top: 0px;
+        right: 40px;
+        width: 900px;
+    }
+    
+    #HomeRosto{
+        width: 600px;
+        right: 50px;
+        top: 60px;
+    }
+    
+    #HomeAura{
+        width: 1200px;
+        top: -40px;
+        right: 20px;
+    }
+    
+    #HomePhotoshopMenu{
+        width: 310px;
+        top: 90px;
+        right: 100px;
+    }
+    
+    
+    section#home .HomePlantas1{
+        top: 50px;
+        margin-top: 245px;
+        width: 250px;
+        left: 0;
+    }
+    
+    section#home .HomePlantas2{
+        margin-top: 100px;
+        top: 100px;
+        width: 350px;
+        right: 0;
+        z-index: 2;
+    }
+
+
+     /* About Me/////////////////////////////////// */
+
+     section#AboutMe{
+        margin-top: 600px;
+    }
+    
+    
+    #AboutMeContainer p{
+        font-size: 2.2em;
+        margin-bottom: 70px;
+    }
+    
+    
+    #AboutMeImgs{
+        gap: 30px;
+    }
+    
+    #AboutMeImgs img{
+        width: 390px;
+    }
+
+
+    /* Trabalhos/////////////////////////////////// */
+    
+    section#Trabalhos{
+        margin-top: 80px;
+    }
+    
+    #TrabalhosAuraCanto{
+        width: 1700px;
+    }
+    
+    section#Trabalhos h1{
+        font-size: 8em;
+    }
+    
+    section#Trabalhos p{
+        margin-top: -30px;
+        margin-bottom: 100px;
+        font-size: 3em;
+    }
+    
+    
+    #TrabalhosContainer{
+        gap: 50px;
+    }
+    
+    #TrabalhosContainer div{
+        gap: 30px;
+    }
+    
+    #TrabalhosContainer img{
+        width: 500px;
+    }
+
+
+    /* Serviços/////////////////////////////////// */
+
+    section#Serviços{
+        margin-top: 10px;
+    }
+    
+    #ServiçosPlantaTopo{
+        width: 180px;
+        margin-top: -20px;
+        left: -150px;
+    }
+    
+    section#Serviços #ListaServiços{
+        width: 1200px;
+    }
+
+
+    /* Depoimentos/////////////////////////////////// */
+
+
+    section#Depoimentos{
+        margin-top: 300px;
+    }
+    
+    #ServiçosPlantaChão{
+        width: 270px;
+        right: -150px;
+        margin-top: -1200px;
+    }
+    
+    section#Depoimentos h1{
+        font-size: 7em;
+        line-height: 1;
+    }
+    
+    section#Depoimentos p{
+        margin-bottom: 100px;
+        font-size: 2.8em;
+        opacity: .5;
+    }
+
+    section#Depoimentos #DepoimentosIMG{
+        width: 1200px;
+    }
+
+
+    /* Contacto/////////////////////////////////// */
+
+
+    section#Contato{
+        margin-top: 300px;
+    }
+
+    #ContatoIMG{
+        width: 1200px;
+    }
+    
+    #ContatoPlantas{
+        width: 150px;
+        margin-top: 80px;
+        left: -150px;
+    }
+    
+    #ContatoAuraCanto{
+        width: 1300px;
+        right: -150px;
+        bottom: 0;
+    }
+    
+    #ContatoPhoto {
+        width: 100%;
+        height: 1100px;
+    }
+      
+    #ContatoRosto {
+        width: 1200px;
+        bottom: -350px;
+    }
+      
+    #ContatoQuadro {
+        width: 850px;
+        bottom: -350px;
+        left: -150px;
+    }
+      
+    #ContatoBolhas {
+        width: 600px;
+        bottom: 100px;
+        left: -150px;
+    }
+    
+    #ContatoAura{
+        width: 850px;
+        bottom: -350px;
+        left: 80px;
+    }
+    
+    
+    #ContatoLogo{
+        width: 180px;
+        left: 450px;
+        bottom: -220px;
+    }
+}
+
+
+
+@media (max-width: 1300px){
+
+
+    body{
+        padding: 100px;
+    }
+
+    /* Home/////////////////////////////////// */
+
+    #HomeContainer #logo{
+        width: 130px;
+    }
+    
+    #HomeTitle{
+        margin-top: 80px;
+        font-size: 3.3em;
+        max-width: 400px;
+        line-height: 1em;
+    }
+
+    #HomeTeaser{
+        font-size: 1.8em;
+    }
+
+    #FundoInsta{
+        top: 0;
+        right: -40px;
+        width: 800px;
+    }
+    
+    #HomeRosto{
+        width: 430px;
+        right: 60px;
+        top: 50px;
+    }
+    
+    #HomeAura{
+        width: 950px;
+        top: 0;
+        right: -30px;
+    }
+    
+    #HomePhotoshopMenu{
+        width: 250px;
+        top: 90px;
+        right: 100px;
+    }
+    
+    
+    section#home .HomePlantas1{
+        top: 50px;
+        margin-top: 220px;
+        width: 220px;
+        left: 0;
+    }
+    
+    section#home .HomePlantas2{
+        margin-top: 50px;
+        top: 100px;
+        width: 330px;
+        right: 0;
+        z-index: 2;
+    }
+
+
+    /* About Me/////////////////////////////////// */
+
+    section#AboutMe{
+        margin-top: 500px;
+    }
+    
+    #AboutMeContainer p{
+        font-size: 1.8em;
+        margin-bottom: 50px;
+    }
+    
+    
+    #AboutMeImgs{
+        gap: 25px;
+    }
+    
+    #AboutMeImgs img{
+        width: 290px;
+    }
+
+
+    /* Trabalhos/////////////////////////////////// */
+    
+    section#Trabalhos{
+        margin-top: 80px;
+    }
+    
+    #TrabalhosAuraCanto{
+        width: 1300px;
+    }
+    
+    section#Trabalhos h1{
+        font-size: 7em;
+    }
+    
+    section#Trabalhos p{
+        margin-top: -30px;
+        margin-bottom: 100px;
+        font-size: 2.2em;
+    }
+    
+    
+    #TrabalhosContainer{
+        gap: 40px;
+    }
+    
+    #TrabalhosContainer div{
+        gap: 20px;
+    }
+    
+    #TrabalhosContainer img{
+        width: 420px;
+    }
+
+    /* Serviços/////////////////////////////////// */
+
+    section#Serviços{
+        margin-top: 10px;
+    }
+    
+    #ServiçosPlantaTopo{
+        width: 180px;
+        margin-top: -20px;
+        left: -100px;
+    }
+    
+    section#Serviços #ListaServiços{
+        width: 950px;
+    }
+
+
+     /* Depoimentos/////////////////////////////////// */
+
+
+    section#Depoimentos{
+        margin-top: 300px;
+    }
+    
+    #ServiçosPlantaChão{
+        width: 200px;
+        right: -100px;
+        margin-top: -1100px;
+    }
+    
+    section#Depoimentos h1{
+        font-size: 5.5em;
+        line-height: 1;
+    }
+    
+    section#Depoimentos p{
+        margin-bottom: 100px;
+        font-size: 2.1em;
+        opacity: .5;
+    }
+
+    section#Depoimentos #DepoimentosIMG{
+        width: 900px;
+    }
+
+
+    /* Contacto/////////////////////////////////// */
+
+
+    section#Contato{
+        margin-top: 300px;
+    }
+
+    #ContatoIMG{
+        width: 900px;
+    }
+    
+    #ContatoPlantas{
+        width: 120px;
+        margin-top: 50px;
+        left: -100px;
+    }
+    
+    #ContatoAuraCanto{
+        width: 900px;
+        right: -100px;
+        bottom: 0;
+    }
+    
+    #ContatoPhoto {
+        width: 100%;
+        height: 700px;
+    }
+      
+    #ContatoRosto {
+        width: 900px;
+        bottom: -350px;
+    }
+      
+    #ContatoQuadro {
+        width: 670px;
+        bottom: -350px;
+        left: -90px;
+    }
+      
+    #ContatoBolhas {
+        width: 500px;
+        bottom: -40px;
+        left: -90px;
+    }
+    
+    #ContatoAura{
+        width: 650px;
+        bottom: -350px;
+        left: 70px;
+    }
+    
+    
+    #ContatoLogo{
+        width: 180px;
+        left: 420px;
+        bottom: -250px;
+    }
+}
+
+
+
+@media (max-width: 1000px){
+    #HomeTitle{
+        margin-top: 80px;
+        font-size: 3em;
+        max-width: 400px;
+        line-height: 1em;
+    }
+
+    #HomeTeaser{
+        font-size: 1.7em;
+    }
+    
+    #HomeRosto{
+        width: 420px;
+        right: 60px;
+        top: 50px;
+    }
+}
+
+
+@media (max-width: 950px){
+    
+    body{
+        padding: 80px;
+    }
+
+    /* Home/////////////////////////////////// */
+
+    #HomeContainer #logo{
+        margin-top: 20px;
+        width: 110px;
+    }
+    
+    #HomeTitle{
+        margin-top: 60px;
+        font-size: 2.5em;
+        max-width: 300px;
+        line-height: 1em;
+    }
+
+    #HomeTeaser{
+        font-size: 1.3em;
+    }
+
+    #FundoInsta{
+        top: 0;
+        right: 0;
+        width: 440px;
+    }
+    
+    #HomeRosto{
+        width: 300px;
+        right: 10px;
+        top: 30px;
+    }
+    
+    #HomeAura{
+        width: 650px;
+        top: 0;
+        right: -60px;
+    }
+    
+    #HomePhotoshopMenu{
+        width: 130px;
+        top: 80px;
+        right: 50px;
+    }
+    
+    
+    section#home .HomePlantas1{
+        top: 50px;
+        margin-top: 150px;
+        width: 150px;
+        left: 0;
+    }
+    
+    section#home .HomePlantas2{
+        margin-top: 50px;
+        top: 80px;
+        width: 160px;
+        right: 0;
+    }
+
+
+    /* About Me/////////////////////////////////// */
+
+    section#AboutMe{
+        margin-top: 200px;
+    }
+    
+    #AboutMeContainer p{
+        font-size: 1.3em;
+        margin-bottom: 40px;
+    }
+    
+    
+    #AboutMeImgs{
+        gap: 25px;
+    }
+    
+    #AboutMeImgs img{
+        width: 200px;
+    }
+
+    /* Trabalhos/////////////////////////////////// */
+    
+    section#Trabalhos{
+        margin-top: 60px;
+    }
+    
+    #TrabalhosAuraCanto{
+        width: 950px;
+    }
+    
+    section#Trabalhos h1{
+        font-size: 5em;
+    }
+    
+    section#Trabalhos p{
+        margin-top: -30px;
+        margin-bottom: 100px;
+        font-size: 1.6em;
+    }
+    
+    
+    #TrabalhosContainer{
+        gap: 40px;
+    }
+    
+    #TrabalhosContainer div{
+        gap: 20px;
+    }
+    
+    #TrabalhosContainer img{
+        width: 300px;
+    }
+
+
+    /* Serviços/////////////////////////////////// */
+
+    section#Serviços{
+        margin-top: 10px;
+    }
+    
+    #ServiçosPlantaTopo{
+        width: 100px;
+        margin-top: 0px;
+        left: -80px;
+    }
+    
+    section#Serviços #ListaServiços{
+        width: 670px;
+    }
+
+
+     /* Depoimentos/////////////////////////////////// */
+
+
+    section#Depoimentos{
+        margin-top: 250px;
+    }
+    
+    #ServiçosPlantaChão{
+        width: 130px;
+        right: -100px;
+        margin-top: -850px;
+    }
+    
+    section#Depoimentos h1{
+        font-size: 4em;
+    }
+    
+    section#Depoimentos p{
+        margin-bottom: 100px;
+        font-size: 1.49em;
+        opacity: .5;
+    }
+
+    section#Depoimentos #DepoimentosIMG{
+        width: 670px;
+    }
+
+
+
+    /* Contacto/////////////////////////////////// */
+
+
+    section#Contato{
+        margin-top: 250px;
+    }
+
+    #ContatoIMG{
+        width: 670px;
+    }
+    
+    #ContatoPlantas{
+        width: 90px;
+        margin-top: 50px;
+        left: -80px;
+    }
+    
+    #ContatoAuraCanto{
+        width: 640px;
+        right: -80px;
+        bottom: 0;
+    }
+    
+    #ContatoPhoto {
+        width: 100%;
+        height: 470px;
+    }
+      
+    #ContatoRosto {
+        width: 650px;
+        bottom: -350px;
+    }
+      
+    #ContatoQuadro {
+        width: 450px;
+        bottom: -350px;
+        left: -90px;
+    }
+      
+    #ContatoBolhas {
+        width: 300px;
+        bottom: -100px;
+        left: -80px;
+    }
+    
+    #ContatoAura{
+        width: 520px;
+        bottom: -350px;
+        left: -100px;
+    }
+    
+    
+    #ContatoLogo{
+        width: 100px;
+        left: 180px;
+        bottom: -290px;
+    }
+
+    .gradiente-escuro {
+        bottom: -400px;
+        height: 500px;
+      }
+}
+
+
+@media (max-width: 700px){
+    
+    body{
+        padding: 45px;
+    }
+
+    /* Home/////////////////////////////////// */
+
+    #HomeContainer #logo{
+        margin-top: 20px;
+        width: 70px;
+    }
+    
+    #HomeTitle{
+        margin-top: 50px;
+        font-size: 1.5em;
+        max-width: 200px;
+        line-height: 1.2em;
+    }
+
+    #HomeTeaser{
+        font-size: .85em;
+    }
+
+    #FundoInsta{
+        top: 0;
+        right: 0;
+        width: 370px;
+    }
+    
+    #HomeRosto{
+        width: 250px;
+        right: 10px;
+        top: 26px;
+    }
+    
+    #HomeAura{
+        width: 520px;
+        top: -30px;
+        right: -40px;
+    }
+    
+    #HomePhotoshopMenu{
+        width: 110px;
+        top: 67px;
+        right: 42px;
+    }
+    
+    
+    section#home .HomePlantas1{
+        top: 50px;
+        margin-top: 120px;
+        width: 110px;
+        left: 0;
+    }
+    
+    section#home .HomePlantas2{
+        margin-top: 50px;
+        top: 50px;
+        width: 150px;
+        right: 0;
+    }
+
+
+    /* About Me/////////////////////////////////// */
+
+    section#AboutMe{
+        margin-top: 200px;
+    }
+    
+    #AboutMeContainer p{
+        font-size: .9em;
+        margin-bottom: 40px;
+    }
+    
+    
+    #AboutMeImgs{
+        gap: 12px;
+    }
+    
+    #AboutMeImgs img{
+        width: 150px;
+    }
+
+
+    /* Trabalhos/////////////////////////////////// */
+    
+    section#Trabalhos{
+        margin-top: 40px;
+    }
+    
+    #TrabalhosAuraCanto{
+        top: 200px;
+        width: 700px;
+    }
+    
+    section#Trabalhos h1{
+        font-size: 3.5em;
+        margin-bottom: 20px;
+    }
+    
+    section#Trabalhos p{
+        margin-bottom: 60px;
+        font-size: 1.2em;
+    }
+    
+    
+    #TrabalhosContainer{
+        gap: 30px;
+    }
+    
+    #TrabalhosContainer div{
+        gap: 15px;
+    }
+    
+    #TrabalhosContainer img{
+        width: 200px;
+    }
+
+
+    /* Serviços/////////////////////////////////// */
+
+    section#Serviços{
+        margin-top: 10px;
+    }
+    
+    #ServiçosPlantaTopo{
+        width: 52px;
+        margin-top: 0px;
+        left: -45px;
+    }
+    
+    section#Serviços #ListaServiços{
+        width: 440px;
+    }
+
+
+     /* Depoimentos/////////////////////////////////// */
+
+
+     section#Depoimentos{
+        margin-top: 150px;
+    }
+    
+    #ServiçosPlantaChão{
+        width: 85px;
+        right: -45px;
+        margin-top: -550px;
+    }
+    
+    section#Depoimentos h1{
+        font-size: 2.7em;
+    }
+    
+    section#Depoimentos p{
+        margin-bottom: 60px;
+        font-size: 1em;
+        opacity: .5;
+    }
+
+    section#Depoimentos #DepoimentosIMG{
+        width: 440px;
+    }
+
+
+    /* Contacto/////////////////////////////////// */
+
+
+    section#Contato{
+        margin-top: 150px;
+    }
+
+    #ContatoIMG{
+        width: 440px;
+    }
+    
+    #ContatoPlantas{
+        width: 55px;
+        margin-top: 30px;
+        left: -45px;
+    }
+    
+    #ContatoAuraCanto{
+        width: 400px;
+        right: -45px;
+        bottom: -150px;
+    }
+    
+    #ContatoPhoto {
+        width: 100%;
+        height: 200px;
+    }
+      
+    #ContatoRosto {
+        width: 490px;
+        bottom: -350px;
+    }
+      
+    #ContatoQuadro {
+        width: 350px;
+        bottom: -350px;
+        left: -60px;
+    }
+      
+    #ContatoBolhas {
+        width: 200px;
+        bottom: -150px;
+        left: -45px;
+    }
+    
+    #ContatoAura{
+        width: 350px;
+        bottom: -350px;
+        left: -50px;
+    }
+    
+    
+    #ContatoLogo{
+        width: 70px;
+        left: 140px;
+        bottom: -300px;
+    }
+
+    .gradiente-escuro {
+        bottom: -400px;
+        height: 400px;
+      }
+}
+
+
+
+
+@media (max-width: 500px){
+
+    body{
+        padding: 30px;
+    }
+
+    /* Home/////////////////////////////////// */
+
+    #HomeContainer #logo{
+        margin-top: 30px;
+        width: 50px;
+    }
+    
+    #HomeTitle{
+        margin-top: 30px;
+        font-size: 1.05em;
+        max-width: 130px;
+        line-height: 1.2em;
+    }
+
+    #HomeTeaser{
+        font-size: .6em;
+    }
+
+    #FundoInsta{
+        top: 0;
+        right: -10px;
+        width: 260px;
+    }
+    
+    #HomeRosto{
+        width: 170px;
+        right: 0px;
+        top: 15px;
+    }
+    
+    #HomeAura{
+        width: 320px;
+        top: 10px;
+        right: -20px;
+    }
+    
+    #HomePhotoshopMenu{
+        width: 80px;
+        top: 40px;
+        right: 15px;
+    }
+    
+    
+    section#home .HomePlantas1{
+        top: 50px;
+        margin-top: 60px;
+        width: 70px;
+        left: 0;
+    }
+    
+    section#home .HomePlantas2{
+        margin-top: 0px;
+        top: 60px;
+        width: 90px;
+        right: 0;
+    }
+
+
+    /* About Me/////////////////////////////////// */
+
+    section#AboutMe{
+        margin-top: 140px;
+    }
+    
+    #AboutMeContainer p{
+        font-size: .7em;
+        margin-bottom: 20px;
+    }
+    
+    
+    #AboutMeImgs{
+        gap: 10px;
+    }
+    
+    #AboutMeImgs img{
+        width: 100px;
+    }
+
+    /* Trabalhos/////////////////////////////////// */
+    
+    section#Trabalhos{
+        margin-top: 30px;
+    }
+    
+    #TrabalhosAuraCanto{
+        top: 0px;
+        width: 500px;
+        right: 0;
+    }
+    
+    section#Trabalhos h1{
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+    
+    section#Trabalhos p{
+        margin-bottom: 30px;
+        font-size: .8em;
+    }
+    
+    
+    #TrabalhosContainer{
+        gap: 20px;
+    }
+    
+    #TrabalhosContainer div{
+        gap: 10px;
+    }
+    
+    #TrabalhosContainer img{
+        width: 140px;
+    }
+
+
+    /* Serviços/////////////////////////////////// */
+
+    section#Serviços{
+        margin-top: 8px;
+    }
+    
+    #ServiçosPlantaTopo{
+        width: 37px;
+        margin-top: 0px;
+        left: -30px;
+    }
+    
+    section#Serviços #ListaServiços{
+        width: 310px;
+    }
+
+
+     /* Depoimentos/////////////////////////////////// */
+
+
+     section#Depoimentos{
+        margin-top: 100px;
+    }
+    
+    #ServiçosPlantaChão{
+        width: 64px;
+        right: -30px;
+        margin-top: -385px;
+    }
+    
+    section#Depoimentos h1{
+        font-size: 2em;
+    }
+    
+    section#Depoimentos p{
+        margin-bottom: 60px;
+        font-size: .75em;
+        opacity: .5;
+    }
+
+    section#Depoimentos #DepoimentosIMG{
+        width: 310px;
+    }
+
+
+    /* Contacto/////////////////////////////////// */
+
+
+    section#Contato{
+        margin-top: 100px;
+    }
+
+    #ContatoIMG{
+        width: 310px;
+    }
+    
+    #ContatoPlantas{
+        width: 40px;
+        margin-top: 20px;
+        left: -30px;
+    }
+    
+    #ContatoAuraCanto{
+        width: 400px;
+        right: -35px;
+        bottom: -300px;
+    }
+    
+    #ContatoPhoto {
+        width: 100%;
+        height: 0px;
+    }
+      
+    #ContatoRosto {
+        width: 320px;
+        bottom: -350px;
+    }
+      
+    #ContatoQuadro {
+        width: 235px;
+        bottom: -350px;
+        left: -40px;
+    }
+      
+    #ContatoBolhas {
+        width: 140px;
+        bottom: -223px;
+        left: -30px;
+    }
+    
+    #ContatoAura{
+        width: 240px;
+        bottom: -350px;
+        left: -40px;
+    }
+    
+    
+    #ContatoLogo{
+        width: 50px;
+        left: 100px;
+        bottom: -320px;
+    }
+
+    .gradiente-escuro {
+        bottom: -350px;
+        height: 200px;
+      }
+
+}
+
+@media (max-width: 350px){
+    body{
+        padding: 25px;
+    }
+
+    /* Home/////////////////////////////////// */
+
+    #HomeContainer #logo{
+        margin-top: 15px;
+        width: 40px;
+    }
+    
+    #HomeTitle{
+        margin-top: 20px;
+        font-size: 1em;
+        max-width: 120px;
+        line-height: 1.2em;
+    }
+
+    #HomeTeaser{
+        font-size: .54em;
+    }
+
+    #FundoInsta{
+        top: 0;
+        right: 0px;
+        width: 220px;
+    }
+    
+    #HomeRosto{
+        width: 150px;
+        right: 0px;
+        top: 15px;
+    }
+    
+    #HomeAura{
+        width: 270px;
+        top: 10px;
+        right: 0px;
+    }
+    
+    #HomePhotoshopMenu{
+        width: 75px;
+        top: 30px;
+        right: 10px;
+    }
+    
+    
+    section#home .HomePlantas1{
+        top: 60px;
+        margin-top: 30px;
+        width: 55px;
+        left: 0;
+    }
+    
+    section#home .HomePlantas2{
+        margin-top: 10px;
+        top: 50px;
+        width: 75px;
+        right: 0;
+    }
+
+
+    /* About Me/////////////////////////////////// */
+
+    section#AboutMe{
+        margin-top: 110px;
+    }
+    
+    #AboutMeContainer p{
+        font-size: .6em;
+        margin-bottom: 20px;
+    }
+    
+    
+    #AboutMeImgs{
+        gap: 8px;
+    }
+    
+    #AboutMeImgs img{
+        width: 90px;
+    }
+
+    /* Trabalhos/////////////////////////////////// */
+    
+    section#Trabalhos{
+        margin-top: 20px;
+    }
+    
+    #TrabalhosAuraCanto{
+        top: 0px;
+        width: 350px;
+        right: 0;
+    }
+    
+    section#Trabalhos h1{
+        font-size: 2.2em;
+        margin-bottom: 20px;
+    }
+    
+    section#Trabalhos p{
+        margin-bottom: 15px;
+        font-size: .8em;
+    }
+    
+    
+    #TrabalhosContainer{
+        gap: 20px;
+    }
+    
+    #TrabalhosContainer div{
+        gap: 10px;
+    }
+    
+    #TrabalhosContainer img{
+        width: 125px;
+    }
+
+
+    /* Serviços/////////////////////////////////// */
+
+    section#Serviços{
+        margin-top: 8px;
+    }
+    
+    #ServiçosPlantaTopo{
+        width: 32px;
+        margin-top: -10px;
+        left: -25px;
+    }
+    
+    section#Serviços #ListaServiços{
+        width: 275px;
+    }
+
+
+     /* Depoimentos/////////////////////////////////// */
+
+
+     section#Depoimentos{
+        margin-top: 80px;
+    }
+    
+    #ServiçosPlantaChão{
+        width: 55px;
+        right: -25px;
+        margin-top: -320px;
+    }
+    
+    section#Depoimentos h1{
+        font-size: 1.6em;
+    }
+    
+    section#Depoimentos p{
+        margin-bottom: 30px;
+        font-size: .6em;
+        opacity: .5;
+    }
+
+    section#Depoimentos #DepoimentosIMG{
+        width: 275px;
+    }
+
+    /* Contacto/////////////////////////////////// */
+
+
+    section#Contato{
+        margin-top: 90px;
+    }
+
+    #ContatoIMG{
+        width: 275px;
+    }
+    
+    #ContatoPlantas{
+        width: 35px;
+        margin-top: 15px;
+        left: -25px;
+    }
+    
+    #ContatoAuraCanto{
+        width: 300px;
+        right: -30px;
+        bottom: -300px;
+    }
+    
+    #ContatoPhoto {
+        margin-top: -30px;
+    }
+      
+    #ContatoRosto {
+        width: 300px;
+        bottom: -350px;
+    }
+      
+    #ContatoQuadro {
+        width: 220px;
+        bottom: -350px;
+        left: -40px;
+    }
+      
+    #ContatoBolhas {
+        width: 100px;
+        bottom: -215px;
+        left: -20px;
+    }
+    
+    #ContatoAura{
+        width: 220px;
+        bottom: -350px;
+        left: -20px;
+    }
+    
+    
+    #ContatoLogo{
+        width: 40px;
+        left: 100px;
+        bottom: -320px;
+    }
+
+    .gradiente-escuro {
+        bottom: -350px;
+        height: 150px;
+      }
+}
+
+
+@media (max-width: 315px){
+    body{
+        padding: 20px;
+    }
+
+    /* Home/////////////////////////////////// */
+
+    #HomeContainer #logo{
+        margin-top: 15px;
+        width: 35px;
+    }
+    
+    #HomeTitle{
+        margin-top: 20px;
+        font-size: .8em;
+        max-width: 100px;
+        line-height: 1.2em;
+    }
+
+    #HomeTeaser{
+        font-size: .43em;
+    }
+
+    #FundoInsta{
+        top: 0;
+        right: -20px;
+        width: 195px;
+    }
+    
+    #HomeRosto{
+        width: 120px;
+        right: 0px;
+        top: 15px;
+    }
+    
+    #HomeAura{
+        width: 230px;
+        top: 10px;
+        right: -20px;
+    }
+    
+    #HomePhotoshopMenu{
+        width: 65px;
+        top: 30px;
+        right: 8px;
+    }
+    
+    
+    section#home .HomePlantas1{
+        top: 50px;
+        margin-top: 30px;
+        width: 45px;
+        left: 0;
+    }
+    
+    section#home .HomePlantas2{
+        margin-top: 0px;
+        top: 50px;
+        width: 65px;
+        right: 0;
+    }
+
+
+    /* About Me/////////////////////////////////// */
+
+    section#AboutMe{
+        margin-top: 110px;
+    }
+    
+    #AboutMeContainer p{
+        font-size: .54em;
+        margin-bottom: 20px;
+    }
+    
+    
+    #AboutMeImgs{
+        gap: 8px;
+    }
+    
+    #AboutMeImgs img{
+        width: 72px;
+    }
+
+    /* Trabalhos/////////////////////////////////// */
+    
+    section#Trabalhos{
+        margin-top: 20px;
+    }
+    
+    #TrabalhosAuraCanto{
+        top: 0px;
+        width: 300px;
+        right: 0;
+    }
+    
+    section#Trabalhos h1{
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    
+    section#Trabalhos p{
+        margin-bottom: 15px;
+        font-size: .6em;
+    }
+    
+    
+    #TrabalhosContainer{
+        gap: 15px;
+    }
+    
+    #TrabalhosContainer div{
+        gap: 7.5px;
+    }
+    
+    #TrabalhosContainer img{
+        width: 109px;
+    }
+
+
+    /* Serviços/////////////////////////////////// */
+
+    section#Serviços{
+        margin-top: 8px;
+    }
+    
+    #ServiçosPlantaTopo{
+        width: 28px;
+        margin-top: 0px;
+        left: -20px;
+    }
+    
+    section#Serviços #ListaServiços{
+        width: 235px;
+    }
+
+
+     /* Depoimentos/////////////////////////////////// */
+
+
+     section#Depoimentos{
+        margin-top: 70px;
+    }
+    
+    #ServiçosPlantaChão{
+        width: 50px;
+        right: -25px;
+        margin-top: -280px;
+    }
+    
+    section#Depoimentos h1{
+        font-size: 1.4em;
+    }
+    
+    section#Depoimentos p{
+        margin-bottom: 60px;
+        font-size: .54em;
+        opacity: .5;
+    }
+
+    section#Depoimentos #DepoimentosIMG{
+        width: 235px;
+    }
+
+    /* Contacto/////////////////////////////////// */
+
+
+    section#Contato{
+        margin-top: 90px;
+    }
+
+    #ContatoIMG{
+        width: 235px;
+    }
+    
+    #ContatoPlantas{
+        width: 30px;
+        margin-top: 15px;
+        left: -20px;
+    }
+    
+    #ContatoAuraCanto{
+        width: 300px;
+        right: -30px;
+        bottom: -300px;
+    }
+    
+    #ContatoPhoto {
+        margin-top: -50px;
+    }
+      
+    #ContatoRosto {
+        width: 270px;
+        bottom: -350px;
+    }
+      
+    #ContatoQuadro {
+        width: 180px;
+        bottom: -350px;
+        left: -40px;
+    }
+      
+    #ContatoBolhas {
+        width: 85px;
+        bottom: -223px;
+        left: -20px;
+    }
+    
+    #ContatoAura{
+        width: 200px;
+        bottom: -350px;
+        left: -40px;
+    }
+    
+    
+    #ContatoLogo{
+        width: 35px;
+        left: 70px;
+        bottom: -320px;
+    }
+}
+
+
+
+@media (max-width: 250px){
+
+    body{
+        padding: 10px;
+    }
+
+    /* Home/////////////////////////////////// */
+
+    #HomeContainer #logo{
+        margin-top: 20px;
+        width: 20px;
+    }
+    
+    #HomeTitle{
+        margin-top: 10px;
+        font-size: .65em;
+        max-width: 80px;
+        line-height: 1em;
+    }
+
+    #HomeTeaser{
+        font-size: .3em;
+    }
+
+    #FundoInsta{
+        top: 0;
+        right: -8px;
+        width: 140px;
+    }
+    
+    #HomeRosto{
+        width: 90px;
+        right: 0px;
+        top: 10px;
+    }
+    
+    #HomeAura{
+        width: 180px;
+        top: 0px;
+        right: -20px;
+    }
+    
+    #HomePhotoshopMenu{
+        width: 45px;
+        top: 18px;
+        right: 7px;
+    }
+    
+    
+    section#home .HomePlantas1{
+        top: 50px;
+        margin-top: 5px;
+        width: 30px;
+        left: 0;
+    }
+    
+    section#home .HomePlantas2{
+        margin-top: 0px;
+        top: 30px;
+        width: 50px;
+        right: 0;
+    }
+
+
+    /* About Me/////////////////////////////////// */
+
+    section#AboutMe{
+        margin-top: 100px;
+    }
+    
+    #AboutMeContainer p{
+        font-size: .4em;
+        margin-bottom: 10px;
+    }
+    
+    
+    #AboutMeImgs{
+        gap: 4px;
+    }
+    
+    #AboutMeImgs img{
+        width: 60px;
+    }
+
+
+    /* Trabalhos/////////////////////////////////// */
+    
+    section#Trabalhos{
+        margin-top: 20px;
+    }
+    
+    #TrabalhosAuraCanto{
+        top: 0px;
+        width: 250px;
+        right: 0;
+    }
+    
+    section#Trabalhos h1{
+        font-size: 1.5em;
+        margin-bottom: 25px;
+    }
+    
+    section#Trabalhos p{
+        margin-bottom: 10px;
+        font-size: .5em;
+    }
+    
+    
+    #TrabalhosContainer{
+        gap: 10px;
+    }
+    
+    #TrabalhosContainer div{
+        gap: 5px;
+    }
+    
+    #TrabalhosContainer img{
+        width: 80px;
+    }
+
+
+    /* Serviços/////////////////////////////////// */
+
+    section#Serviços{
+        margin-top: 5px;
+    }
+    
+    #ServiçosPlantaTopo{
+        width: 21px;
+        margin-top: 0px;
+        left: -10px;
+    }
+    
+    section#Serviços #ListaServiços{
+        width: 175px;
+    }
+
+
+    /* Depoimentos/////////////////////////////////// */
+
+
+    section#Depoimentos{
+        margin-top: 50px;
+    }
+    
+    #ServiçosPlantaChão{
+        width: 28px;
+        right: -10px;
+        margin-top: -220px;
+    }
+    
+    section#Depoimentos h1{
+        font-size: 1.1em;
+    }
+    
+    section#Depoimentos p{
+        margin-bottom: 10px;
+        font-size: .4em;
+        opacity: .5;
+    }
+
+    section#Depoimentos #DepoimentosIMG{
+        width: 180px;
+    }
+
+
+    /* Contacto/////////////////////////////////// */
+
+
+    section#Contato{
+        margin-top: 80px;
+    }
+
+    #ContatoIMG{
+        width: 180px;
+    }
+    
+    #ContatoPlantas{
+        width: 25px;
+        margin-top: 10px;
+        left: -10px;
+    }
+    
+    #ContatoAuraCanto{
+        width: 200px;
+        right: -10px;
+        bottom: -300px;
+    }
+    
+    #ContatoPhoto {
+        margin-top: -140px;
+    }
+      
+    #ContatoRosto {
+        width: 190px;
+        bottom: -350px;
+    }
+      
+    #ContatoQuadro {
+        width: 140px;
+        bottom: -350px;
+        left: -20px;
+    }
+      
+    #ContatoBolhas {
+        width: 70px;
+        bottom: -270px;
+        left: -10px;
+    }
+    
+    #ContatoAura{
+        width: 140px;
+        bottom: -350px;
+        left: -30px;
+    }
+    
+    
+    #ContatoLogo{
+        width: 20px;
+        left: 65px;
+        bottom: -332px;
+    }
+
+    .gradiente-escuro {
+        bottom: -350px;
+        height: 100px;
+      }
+
+}
