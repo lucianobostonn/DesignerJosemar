@@ -253,13 +253,61 @@ section#Depoimentos p{
 
 
 section#Contato{
-    margin-top: 600px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     
 }
+
+
+#ContatoContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#ContatoTelefoneIMG{
+    width: 600px;
+}
+
+#WhatsAppIconContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+
+#WhatsAppIconContainer h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+#WhatsAppIconContainer span{
+    background: linear-gradient(90deg, var(--cor3), var(--cor2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#ContatoWhatsAppICon{
+    width: 100px;
+    z-index: 3;
+    cursor: pointer;
+    animation: flutuar 3s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
 
 #ContatoPlantas{
     position: absolute;
@@ -500,9 +548,9 @@ section#Contato{
         margin-top: 300px;
     }
 
-    #ContatoIMG{
+    /* #ContatoIMG{
         width: 1500px;
-    }
+    } */
     
     #ContatoPlantas{
         width: 200px;
@@ -736,9 +784,9 @@ section#Contato{
         margin-top: 300px;
     }
 
-    #ContatoIMG{
+    /* #ContatoIMG{
         width: 1200px;
-    }
+    } */
     
     #ContatoPlantas{
         width: 150px;
@@ -966,10 +1014,22 @@ section#Contato{
         margin-top: 300px;
     }
 
-    #ContatoIMG{
+    /* #ContatoIMG{
         width: 900px;
-    }
+    } */
     
+    #ContatoTelefoneIMG{
+        width: 500px;
+    }
+
+    #WhatsAppIconContainer h1{
+        font-size: 2.5em;
+    }
+
+    #ContatoWhatsAppICon{
+        
+    }
+
     #ContatoPlantas{
         width: 120px;
         margin-top: 50px;
@@ -1040,6 +1100,19 @@ section#Contato{
         width: 420px;
         right: 60px;
         top: 50px;
+    }
+
+
+    #ContatoTelefoneIMG{
+        width: 400px;
+    }
+
+    #WhatsAppIconContainer h1{
+        font-size: 2em;
+    }
+
+    #ContatoWhatsAppICon{
+        width: 80px;
     }
 }
 
@@ -1446,9 +1519,22 @@ section#Contato{
         margin-top: 150px;
     }
 
-    #ContatoIMG{
+    /* #ContatoIMG{
         width: 440px;
+    } */
+
+    #ContatoTelefoneIMG{
+        width: 300px;
     }
+
+    #WhatsAppIconContainer h1{
+        font-size: 1.5em;
+    }
+
+    #ContatoWhatsAppICon{
+        width: 50px;
+    }
+
     
     #ContatoPlantas{
         width: 55px;
@@ -1679,8 +1765,20 @@ section#Contato{
         margin-top: 100px;
     }
 
-    #ContatoIMG{
+    /* #ContatoIMG{
         width: 310px;
+    } */
+
+    #ContatoTelefoneIMG{
+        width: 200px;
+    }
+
+    #WhatsAppIconContainer h1{
+        font-size: 1em;
+    }
+
+    #ContatoWhatsAppICon{
+        width: 50px;
     }
     
     #ContatoPlantas{
@@ -1908,8 +2006,21 @@ section#Contato{
         margin-top: 90px;
     }
 
-    #ContatoIMG{
+    /* #ContatoIMG{
         width: 275px;
+    } */
+
+    #ContatoTelefoneIMG{
+        width: 120px;
+    }
+
+    #WhatsAppIconContainer h1{
+        font-size: .8em;
+        margin-bottom: 20px;
+    }
+
+    #ContatoWhatsAppICon{
+        width: 30px;
     }
     
     #ContatoPlantas{
@@ -2136,8 +2247,22 @@ section#Contato{
         margin-top: 90px;
     }
 
-    #ContatoIMG{
+    /* #ContatoIMG{
         width: 235px;
+    } */
+
+
+    #ContatoTelefoneIMG{
+        width: 100px;
+    }
+
+    #WhatsAppIconContainer h1{
+        font-size: .6em;
+        margin-bottom: 20px;
+    }
+
+    #ContatoWhatsAppICon{
+        width: 30px;
     }
     
     #ContatoPlantas{
@@ -2366,8 +2491,21 @@ section#Contato{
         margin-top: 80px;
     }
 
-    #ContatoIMG{
+    /* #ContatoIMG{
         width: 180px;
+    } */
+
+    #ContatoTelefoneIMG{
+        width: 80px;
+    }
+
+    #WhatsAppIconContainer h1{
+        font-size: .4em;
+        margin-bottom: 20px;
+    }
+
+    #ContatoWhatsAppICon{
+        width: 20px;
     }
     
     #ContatoPlantas{
