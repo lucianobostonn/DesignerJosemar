@@ -308,6 +308,33 @@ section#Contato{
     }
 }
 
+#TextoWhatsApp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+#TextoWhatsApp p{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+
+
+
+
+/*-----------------------------*/
+
 
 #ContatoPlantas{
     position: absolute;
@@ -1291,6 +1318,12 @@ section#Contato{
     #ContatoIMG{
         width: 670px;
     }
+
+
+    #TextoWhatsApp p{
+        font-size: 3em;
+        height: 150px;
+    }
     
     #ContatoPlantas{
         width: 90px;
@@ -1768,6 +1801,12 @@ section#Contato{
     /* #ContatoIMG{
         width: 310px;
     } */
+
+
+    #TextoWhatsApp p{
+        font-size: 2em;
+        height: 100px;
+    }
 
     #ContatoTelefoneIMG{
         width: 200px;
@@ -2252,6 +2291,11 @@ section#Contato{
     } */
 
 
+    #TextoWhatsApp p{
+        font-size: 1.5em;
+        height: 80px;
+    }
+
     #ContatoTelefoneIMG{
         width: 100px;
     }
@@ -2494,6 +2538,11 @@ section#Contato{
     /* #ContatoIMG{
         width: 180px;
     } */
+
+    #TextoWhatsApp p{
+        font-size: 1em;
+        height: 60px;
+    }
 
     #ContatoTelefoneIMG{
         width: 80px;
