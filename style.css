@@ -329,6 +329,13 @@ section#Contato{
     z-index: 999;
 }
 
+#TextoWhatsApp p:hover{
+    color: #40684b;
+    transition: .8s;
+}
+
+
+
 
 
 
